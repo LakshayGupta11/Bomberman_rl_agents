@@ -24,7 +24,7 @@ Agents were evaluated under strict tournament conditions: a 0.5-second decision 
 | :--- | :--- | :--- | :--- | :--- |
 | **Dyna-Q+ (v10)** | **3.47** | 2.50 | 0.19 | 0.55 |
 | `rule_based_agent` | 3.05 | 2.22 | 0.19 | - |
-| **Linear Q-Learning** | 2.75 | 2.40 | 0.07 | 0.62 |
+| **Baseline_Agent** | 2.75 | 2.40 | 0.07 | 0.62 |
 
 The Tabular Dyna-Q+ agent significantly outperformed the course's `rule_based_agent` ($t = +2.74$, $p < 0.05$) while maintaining a strict coin advantage ($t = +3.74$).
 
