@@ -30,9 +30,9 @@ The Tabular Dyna-Q+ agent significantly outperformed the course's `rule_based_ag
 
 ## Repository Structure
 
-* `agent_code/dynaq_agent/`: Contains the primary model-based agent, including the core Dyna-Q+ engine (`dyna.py`), mixed-radix state encoding (`features.py`), and the fully trained `dynaq_plus_model.pt` checkpoint.
-* `agent_code/linear_q_agent/`: Contains the baseline linear approximation agent and its trained `my-saved-model.pt` weights.
-* `MLE_final_report_team_q_bot_2.pdf`: The comprehensive final project report detailing ablation studies, decision-tracing, and training curricula.
+* `dynaq_agent/`: Contains the primary model-based agent, including the core Dyna-Q+ engine (`dyna.py`), mixed-radix state encoding (`features.py`), and the fully trained `dynaq_plus_model.pt` checkpoint.
+* `Baseline_Agent/`: Contains the baseline linear approximation agent and its trained `my-saved-model.pt` weights.
+
 
 ## Local Execution
 
